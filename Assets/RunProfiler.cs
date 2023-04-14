@@ -21,6 +21,7 @@ public class RunProfiler : MonoBehaviour
     bool running = false;
 
     float horizontalInputInClass;
+    GameObject cube;    //Uncomment the second line in Method1() and Method2(0 adn comment out the first lines to use this.
 
     TimeSpan timeSpan1;
     TimeSpan timeSpan2;
@@ -79,6 +80,7 @@ public class RunProfiler : MonoBehaviour
     void Method1() 
     {
         float horizontalInputInMethod = Input.GetAxis("Horizontal");
+        //GameObject cubeLocal = GameObject.Find("Cube");
 
     }
     TimeSpan Profile2()
@@ -100,5 +102,6 @@ public class RunProfiler : MonoBehaviour
     void Method2() 
     {
         horizontalInputInClass = Input.GetAxis("Horizontal");
+        //cube = GameObject.Find("Cube");
     }
 }
