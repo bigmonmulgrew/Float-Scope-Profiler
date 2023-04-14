@@ -1,4 +1,6 @@
 # Float-Scope-Profiler
+Library folder removed for space so you will need to manually open the scene called "OPEN ME"
+
 Compares the time taken using float declarations in different scopes.
 
 Press SPACE to run, number of iterations will double after each run, beware this may cause unity appear to have crashed during operations.
